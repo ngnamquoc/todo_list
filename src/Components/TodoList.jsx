@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './TodoList.css';
 
 const TodoList = () => {
+  //initialize 3 states
   
 
   return (
