@@ -5,7 +5,7 @@ const TodoList = () => {
   //initialize 3 states
   const [todos, setTodos] = useState([]);
   const [headingInput, setHeadingInput] = useState([]);
-  const [listInputs, setListInputs] = useState([]);
+  const [listInputs, setListInputs] = useState({});
   const handleAddTodo = () => {
     if (headingInput.trim() !== "") {
       setTodos([...todos, { heading: headingInput, lists: [] }]);
